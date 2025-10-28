@@ -25,7 +25,11 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="https://github.com/ngoduykhanh/wireguard-ui">OliveVPN</a>
+            <!-- login page logo: will show custom image if uploaded, otherwise text -->
+            <a href="{{.basePath}}">
+                <img src="{{.basePath}}/static/custom/img/olivevpn-logo.png" alt="OliveVPN" style="max-height:80px; object-fit:contain; display:block; margin: 0 auto;" onerror="this.style.display='none'" />
+                <div style="text-align:center; font-weight:700; margin-top:8px;">OliveVPN</div>
+            </a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
