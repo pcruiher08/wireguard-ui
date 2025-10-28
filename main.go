@@ -44,7 +44,7 @@ var (
 	flagSmtpHelo                 = "localhost"
 	flagSendgridApiKey           string
 	flagEmailFrom                string
-	flagEmailFromName            = "WireGuard UI"
+	flagEmailFromName = "OliveVPN"
 	flagTelegramToken            string
 	flagTelegramAllowConfRequest = false
 	flagTelegramFloodWait        = 60
